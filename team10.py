@@ -9,11 +9,11 @@
 
 team_name = 'Kyles Team' # Only 10 chars displayed.
 strategy_name = 'Random Strategy 2.0'
-strategy_description = 'The random choice of RNG.'
+strategy_description = 'Always betray.'
 
 
 
     
 import random
-a = ["Collude", "Betray", "Collude","Collude", "Betray", "Collude"]
+a = ["Betray"]
 print(random.choice(a))
